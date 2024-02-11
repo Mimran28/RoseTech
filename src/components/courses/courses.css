@@ -1,0 +1,10 @@
+.aftert::after{
+    content:"";
+    height: 3px;
+    display: block;
+    background-color:#9b0f29;
+    width:92%;
+    position: absolute;
+    bottom:-4;
+    transition: width 0.3s ease-in-out;
+}

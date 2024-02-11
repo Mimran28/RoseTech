@@ -1,0 +1,32 @@
+.aftera::after{
+    content:"";
+    height: 2px;
+    display: block;
+    background-color: #9b0f29;
+    width:20%;
+    position: absolute;
+    bottom:-4;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right: auto
+}
+.txt{
+    font-size: 65px;
+    padding:32px;
+    line-height: 94px;
+    padding-top:13px
+}
+.afterg::after{
+    content:"";
+    height: 3px;
+    display: block;
+    background-color: #9b0f29;
+    width:8%;
+    position: absolute;
+    bottom:-4;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right: auto
+}

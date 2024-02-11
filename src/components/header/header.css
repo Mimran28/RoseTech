@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #9b0f29;
+}
+
+.bgcolor{
+    background-color: var(--primary-color);
+}
+.after{
+    position: relative;
+    font-weight: 600;
+    color: #4E4E4E
+}
+
+
+ .after a:hover {
+    color:var(--primary-color);
+}
+
+.after a::after{
+    content:"";
+    height: 2px;
+    display: block;
+    background-color:var(--primary-color);
+    width:0%;
+    position: absolute;
+    bottom:-4;
+    transition: width 0.3s ease-in-out;
+}.active{
+    color:var(--primary-color)
+}
+.active::after{
+    content:"";
+    height: 2px;
+    display: block;
+    background-color:var(--primary-color);
+    width:100%;
+    position: absolute;
+    bottom:-4;
+}
+.after a:hover::after{
+    width:100%
+}

@@ -1,0 +1,12 @@
+.line-after{
+    position: relative;
+}
+.line-after::after{
+    content:"";
+    height: 2px;
+    display: block;
+    background-color:var(--primary-color);
+    width:20%;
+    position: absolute;
+    bottom:-4;
+}
